@@ -1,0 +1,57 @@
+@FEATURE_ABSTRACTA
+Característica: Validación del filtro de la página Abstracta
+  Como usuario de Abstracta abro la pagina
+  Quiero hacer la compra de dos productos
+  Para validar el funcionamiento del carrito
+
+  @ESCENARIO1_ABSTRACTA
+  Esquema del escenario: Validar Filtro de busqueda [90m# src/test/resources/web/Abstracta.feature:10[0m
+    [36mDado Abrir la pagina Abstracta en un navegador "chrome"[0m
+    [36mY Hacer click en el botón agregar carrita del primer producto[0m
+    [36mY Hacer click en el botón agregar carrita del segundo producto[0m
+    [36mY Hacer click en ver el carrito[0m
+    [36mY Hacer click en el botón Checkout[0m
+    [36mY Seleccionar Guest Checkout[0m
+    [36mY hacer click en el botón Continue[0m
+    [36mY escribimos "<FirstName>" en el cuadro de texto First Name[0m
+    [36mY escribimos "<LastName>" en el cuadro de texto Last Name[0m
+    [36mY escribimos "<Email>" en el cuadro de texto E-mail[0m
+    [36mY escribimos "<Telephone>" en el cuadro de texto Telephone[0m
+    [36mY escribimos "<Address>" en el cuadro de texto Address[0m
+    [36mY escribimos "<City>" en el cuadro de texto City[0m
+    [36mY escribimos "<PostCode>" en el cuadro de texto PostCode[0m
+    [36mY Seleccionar el Country[0m
+    [36mY Seleccionar la Región[0m
+    [36mY hacer click en el botón Continue del Billing Details[0m
+    [36mY Hacer click en el botón Continue del Delivery Method[0m
+    [36mY Hacer click en el Checkbox de Términos y Condiciones[0m
+    [36mY Hacer click en el botón Continue del Payment Method[0m
+    [36mY Hacer click en el botón Confirm Order[0m
+    [36mEntonces validamos que el pedido haya sido procesado con éxito[0m
+
+    Ejemplos: 
+
+  @FEATURE_ABSTRACTA @ESCENARIO1_ABSTRACTA
+  Esquema del escenario: Validar Filtro de busqueda                    [90m# src/test/resources/web/Abstracta.feature:36[0m
+    [32mDado [0m[32mAbrir la pagina Abstracta en un navegador "[0m[32m[1mchrome[0m[32m"[0m            [90m# AbstractaStepDefinition.abrirLaPaginaAbstractaEnUnNavegador(String)[0m
+    [32mY [0m[32mHacer click en el botón agregar carrita del primer producto[0m      [90m# AbstractaStepDefinition.hacerClickEnElBotónAgregarCarritaDelPrimerProducto()[0m
+    [32mY [0m[32mHacer click en el botón agregar carrita del segundo producto[0m     [90m# AbstractaStepDefinition.hacerClickEnElBotónAgregarCarritaDelSegundoProducto()[0m
+    [32mY [0m[32mHacer click en ver el carrito[0m                                    [90m# AbstractaStepDefinition.hacerClickEnVerElCarrito()[0m
+    [32mY [0m[32mHacer click en el botón Checkout[0m                                 [90m# AbstractaStepDefinition.hacerClickEnElBotónCheckout()[0m
+    [32mY [0m[32mSeleccionar Guest Checkout[0m                                       [90m# AbstractaStepDefinition.seleccionarGuestCheckout()[0m
+    [32mY [0m[32mhacer click en el botón Continue[0m                                 [90m# AbstractaStepDefinition.hacerClickEnElBotónContinue()[0m
+    [32mY [0m[32mescribimos "[0m[32m[1mLuis[0m[32m" en el cuadro de texto First Name[0m               [90m# AbstractaStepDefinition.escribimosEnElCuadroDeTextoFirstName(String)[0m
+    [32mY [0m[32mescribimos "[0m[32m[1mMarcelo Gómez[0m[32m" en el cuadro de texto Last Name[0m       [90m# AbstractaStepDefinition.escribimosEnElCuadroDeTextoLastName(String)[0m
+    [32mY [0m[32mescribimos "[0m[32m[1mluisricardo@gmail.com[0m[32m" en el cuadro de texto E-mail[0m  [90m# AbstractaStepDefinition.escribimosEnElCuadroDeTextoEMail(String)[0m
+    [32mY [0m[32mescribimos "[0m[32m[1m929166766[0m[32m" en el cuadro de texto Telephone[0m           [90m# AbstractaStepDefinition.escribimosEnElCuadroDeTextoTelephone(String)[0m
+    [32mY [0m[32mescribimos "[0m[32m[1mN Garatea mz101 lt.52[0m[32m" en el cuadro de texto Address[0m [90m# AbstractaStepDefinition.escribimosEnElCuadroDeTextoAddress(String)[0m
+    [32mY [0m[32mescribimos "[0m[32m[1mNuevo Chimbote[0m[32m" en el cuadro de texto City[0m           [90m# AbstractaStepDefinition.escribimosEnElCuadroDeTextoCity(String)[0m
+    [32mY [0m[32mescribimos "[0m[32m[1m27111[0m[32m" en el cuadro de texto PostCode[0m                [90m# AbstractaStepDefinition.escribimosEnElCuadroDeTextoPostCode(String)[0m
+    [32mY [0m[32mSeleccionar el Country[0m                                           [90m# AbstractaStepDefinition.seleccionarElCountry()[0m
+    [32mY [0m[32mSeleccionar la Región[0m                                            [90m# AbstractaStepDefinition.seleccionarLaRegión()[0m
+    [32mY [0m[32mhacer click en el botón Continue del Billing Details[0m             [90m# AbstractaStepDefinition.hacerClickEnElBotónContinueDelBillingDetails()[0m
+    [32mY [0m[32mHacer click en el botón Continue del Delivery Method[0m             [90m# AbstractaStepDefinition.hacerClickEnElBotónContinueDelDeliveryMethod()[0m
+    [32mY [0m[32mHacer click en el Checkbox de Términos y Condiciones[0m             [90m# AbstractaStepDefinition.hacerClickEnElCheckboxDeTérminosYCondiciones()[0m
+    [32mY [0m[32mHacer click en el botón Continue del Payment Method[0m              [90m# AbstractaStepDefinition.hacerClickEnElBotónContinueDelPaymentMethod()[0m
+    [32mY [0m[32mHacer click en el botón Confirm Order[0m                            [90m# AbstractaStepDefinition.hacerClickEnElBotónConfirmOrder()[0m
+    [32mEntonces [0m[32mvalidamos que el pedido haya sido procesado con éxito[0m     [90m# AbstractaStepDefinition.validamosQueElPedidoHayaSidoProcesadoConÉxito()[0m

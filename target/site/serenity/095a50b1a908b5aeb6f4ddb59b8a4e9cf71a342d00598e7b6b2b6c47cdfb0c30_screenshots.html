@@ -1,0 +1,268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="dcf9b74ca705969e9d66137e39781f9468f6468244eb0d8cf8c9c52c07f862e6.html">Validaci&oacute;n Del Filtro De La P&aacute;gina Abstracta</a></span>
+                > <span class="truncate-60"><a
+                    href="095a50b1a908b5aeb6f4ddb59b8a4e9cf71a342d00598e7b6b2b6c47cdfb0c30.html">Validar Filtro de busqueda </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-05-2023 10:31</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Validación Del Filtro De La Página Abstracta</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Como usuario de Abstracta abro la pagina
+Quiero hacer la compra de dos productos
+Para validar el funcionamiento del carrito
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="2cdaad1c7346654bf306c1244d6c1cd655897db7260ed765ac8850a2ddfac97a.html">Escenario1 ABSTRACTA
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="416a6ebea8544810f8cd1a08495c861c2e7c47754e8e4506cd85940187d87f5a.html">FEATURE ABSTRACTA
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Validar Filtro de busqueda
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Dado Abrir la pagina Abstracta en un navegador "chrome"<br>Y Hacer click en el botón agregar carrita del primer producto<br>Y Hacer click en el botón agregar carrita del segundo producto<br>Y Hacer click en ver el carrito<br>Y Hacer click en el botón Checkout<br>Y Seleccionar Guest Checkout<br>Y hacer click en el botón Continue<br>Y escribimos "&lt;FirstName&gt;" en el cuadro de texto First Name<br>Y escribimos "&lt;LastName&gt;" en el cuadro de texto Last Name<br>Y escribimos "&lt;Email&gt;" en el cuadro de texto E-mail<br>Y escribimos "&lt;Telephone&gt;" en el cuadro de texto Telephone<br>Y escribimos "&lt;Address&gt;" en el cuadro de texto Address<br>Y escribimos "&lt;City&gt;" en el cuadro de texto City<br>Y escribimos "&lt;PostCode&gt;" en el cuadro de texto PostCode<br>Y Seleccionar el Country<br>Y Seleccionar la Región<br>Y hacer click en el botón Continue del Billing Details<br>Y Hacer click en el botón Continue del Delivery Method<br>Y Hacer click en el Checkbox de Términos y Condiciones<br>Y Hacer click en el botón Continue del Payment Method<br>Y Hacer click en el botón Confirm Order<br>Entonces validamos que el pedido haya sido procesado con éxito</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="787837a3bda3c56ac6a4e811c93362566a3b42014c8964ba4913015623a06605.png" title=" Example #1: {FirstName=Luis, LastName=Marcelo G&oacute;mez, Email=luisricardo@gmail.com, Telephone=929166766, Address=N Garatea mz101 lt.52, City=Nuevo Chimbote, PostCode=27111}" width="1920"/>
+                <img src="787837a3bda3c56ac6a4e811c93362566a3b42014c8964ba4913015623a06605.png" title=" Y Hacer click en el bot&oacute;n agregar carrita del primer producto" width="1920"/>
+                <img src="787837a3bda3c56ac6a4e811c93362566a3b42014c8964ba4913015623a06605.png" title=" Hacer click en el bot&oacute;n agregar carrita del primer producto" width="1920"/>
+                <img src="787837a3bda3c56ac6a4e811c93362566a3b42014c8964ba4913015623a06605.png" title=" Y Hacer click en el bot&oacute;n agregar carrita del primer producto (completed)" width="1920"/>
+                <img src="19affdf703ed24a17a74ef1ee48ef3d510cf27dd22815abfb1c36e990e89b21b.png" title=" Y Hacer click en el bot&oacute;n agregar carrita del segundo producto" width="1920"/>
+                <img src="19affdf703ed24a17a74ef1ee48ef3d510cf27dd22815abfb1c36e990e89b21b.png" title=" Hacer click en el bot&oacute;n agregar carrita del segundo producto" width="1920"/>
+                <img src="19affdf703ed24a17a74ef1ee48ef3d510cf27dd22815abfb1c36e990e89b21b.png" title=" Y Hacer click en el bot&oacute;n agregar carrita del segundo producto (completed)" width="1920"/>
+                <img src="3441c98b6ea7404e39dfccb19d25300a16d20567578df38483954d177ef5bdb0.png" title=" Y Hacer click en ver el carrito" width="1920"/>
+                <img src="3441c98b6ea7404e39dfccb19d25300a16d20567578df38483954d177ef5bdb0.png" title=" Hacer click en ver el carrito" width="1920"/>
+                <img src="3441c98b6ea7404e39dfccb19d25300a16d20567578df38483954d177ef5bdb0.png" title=" Y Hacer click en ver el carrito (completed)" width="1920"/>
+                <img src="990e15c2bf02c509835505aba0fb71c8ad4d675121ba87d591b21eea83c65387.png" title=" Y Hacer click en el bot&oacute;n Checkout" width="1920"/>
+                <img src="990e15c2bf02c509835505aba0fb71c8ad4d675121ba87d591b21eea83c65387.png" title=" Hacer click en el bot&oacute;n checkout" width="1920"/>
+                <img src="990e15c2bf02c509835505aba0fb71c8ad4d675121ba87d591b21eea83c65387.png" title=" Y Hacer click en el bot&oacute;n Checkout (completed)" width="1920"/>
+                <img src="07b9217d400198aa40ed53eb8c81a3f4d69e7fc53b38b5387d2db604ef288a87.png" title=" Y Seleccionar Guest Checkout" width="1920"/>
+                <img src="07b9217d400198aa40ed53eb8c81a3f4d69e7fc53b38b5387d2db604ef288a87.png" title=" Seleccionar guest checkout" width="1920"/>
+                <img src="07b9217d400198aa40ed53eb8c81a3f4d69e7fc53b38b5387d2db604ef288a87.png" title=" Y Seleccionar Guest Checkout (completed)" width="1920"/>
+                <img src="b44f40d467c50372581939d7f41014763e395e26f406ce7663b7a9ddc34c21a9.png" title=" Y hacer click en el bot&oacute;n Continue" width="1920"/>
+                <img src="b44f40d467c50372581939d7f41014763e395e26f406ce7663b7a9ddc34c21a9.png" title=" Hacer click en el bot&oacute;n continue" width="1920"/>
+                <img src="bf3b4ffe317bb1bf150cbf607049345f65f51649d7463bc6140dbdbb292a8760.png" title=" Y escribimos &quot;Luis&quot; en el cuadro de texto First Name" width="1920"/>
+                <img src="bf3b4ffe317bb1bf150cbf607049345f65f51649d7463bc6140dbdbb292a8760.png" title=" Escribimos en el cuadro de texto first name: Luis" width="1920"/>
+                <img src="bf3b4ffe317bb1bf150cbf607049345f65f51649d7463bc6140dbdbb292a8760.png" title=" Y escribimos &quot;Luis&quot; en el cuadro de texto First Name (completed)" width="1920"/>
+                <img src="7daa9d30f954ffcb3ac1992c6c684bf6b9b1e2310e6e452935ec60e6c4716edd.png" title=" Y escribimos &quot;Marcelo G&oacute;mez&quot; en el cuadro de texto Last Name" width="1920"/>
+                <img src="7daa9d30f954ffcb3ac1992c6c684bf6b9b1e2310e6e452935ec60e6c4716edd.png" title=" Escribimos en el cuadro de texto last name: Marcelo G&oacute;mez" width="1920"/>
+                <img src="7daa9d30f954ffcb3ac1992c6c684bf6b9b1e2310e6e452935ec60e6c4716edd.png" title=" Y escribimos &quot;Marcelo G&oacute;mez&quot; en el cuadro de texto Last Name (completed)" width="1920"/>
+                <img src="48d1b5f04bb345d9dae8e3098115aa5816026a7e0399bd00196a7e9d15d4ef49.png" title=" Y escribimos &quot;luisricardo@gmail.com&quot; en el cuadro de texto E-mail" width="1920"/>
+                <img src="48d1b5f04bb345d9dae8e3098115aa5816026a7e0399bd00196a7e9d15d4ef49.png" title=" Escribimos en el cuadro de texto e mail: luisricardo@gmail.com" width="1920"/>
+                <img src="48d1b5f04bb345d9dae8e3098115aa5816026a7e0399bd00196a7e9d15d4ef49.png" title=" Y escribimos &quot;luisricardo@gmail.com&quot; en el cuadro de texto E-mail (completed)" width="1920"/>
+                <img src="2600bdabebe6d5d5baa46e815e95716a5cbb21db2195be8a153ae307f390d8fc.png" title=" Y escribimos &quot;929166766&quot; en el cuadro de texto Telephone" width="1920"/>
+                <img src="2600bdabebe6d5d5baa46e815e95716a5cbb21db2195be8a153ae307f390d8fc.png" title=" Escribimos en el cuadro de texto telephone: 929166766" width="1920"/>
+                <img src="2600bdabebe6d5d5baa46e815e95716a5cbb21db2195be8a153ae307f390d8fc.png" title=" Y escribimos &quot;929166766&quot; en el cuadro de texto Telephone (completed)" width="1920"/>
+                <img src="6019c2214e71736bb894af4e15cbde4a17fbecc0f1ff431ad0a2cb37a83898cc.png" title=" Y escribimos &quot;N Garatea mz101 lt.52&quot; en el cuadro de texto Address" width="1920"/>
+                <img src="6019c2214e71736bb894af4e15cbde4a17fbecc0f1ff431ad0a2cb37a83898cc.png" title=" Escribimos en el cuadro de texto address: N Garatea mz101 lt.52" width="1920"/>
+                <img src="6019c2214e71736bb894af4e15cbde4a17fbecc0f1ff431ad0a2cb37a83898cc.png" title=" Y escribimos &quot;N Garatea mz101 lt.52&quot; en el cuadro de texto Address (completed)" width="1920"/>
+                <img src="f286b43a2742c86e9bf3845f47e0c78888a86f0fc4f57eaad0c7976d17f28016.png" title=" Y escribimos &quot;Nuevo Chimbote&quot; en el cuadro de texto City" width="1920"/>
+                <img src="f286b43a2742c86e9bf3845f47e0c78888a86f0fc4f57eaad0c7976d17f28016.png" title=" Escribimos en el cuadro de texto city: Nuevo Chimbote" width="1920"/>
+                <img src="f286b43a2742c86e9bf3845f47e0c78888a86f0fc4f57eaad0c7976d17f28016.png" title=" Y escribimos &quot;Nuevo Chimbote&quot; en el cuadro de texto City (completed)" width="1920"/>
+                <img src="53e2aa911aed2ab564f7658b01a3a22c97d59821b2b85700f0d0912df61bae6e.png" title=" Y escribimos &quot;27111&quot; en el cuadro de texto PostCode" width="1920"/>
+                <img src="53e2aa911aed2ab564f7658b01a3a22c97d59821b2b85700f0d0912df61bae6e.png" title=" Escribimos en el cuadro de texto post code: 27111" width="1920"/>
+                <img src="53e2aa911aed2ab564f7658b01a3a22c97d59821b2b85700f0d0912df61bae6e.png" title=" Y escribimos &quot;27111&quot; en el cuadro de texto PostCode (completed)" width="1920"/>
+                <img src="c11e62eafc4b7562d1c5938ca7d8a2c409358582bf78822ccc1c47c8925ab33e.png" title=" Y Seleccionar el Country" width="1920"/>
+                <img src="c11e62eafc4b7562d1c5938ca7d8a2c409358582bf78822ccc1c47c8925ab33e.png" title=" Seleccionar el country" width="1920"/>
+                <img src="c11e62eafc4b7562d1c5938ca7d8a2c409358582bf78822ccc1c47c8925ab33e.png" title=" Y Seleccionar el Country (completed)" width="1920"/>
+                <img src="c74cb152dcdc5a77afc113fda1645875e8e1d33ab3af33624e36e0a3f0867ea3.png" title=" Y Seleccionar la Regi&oacute;n" width="1920"/>
+                <img src="c74cb152dcdc5a77afc113fda1645875e8e1d33ab3af33624e36e0a3f0867ea3.png" title=" Seleccionar la regi&oacute;n" width="1920"/>
+                <img src="c74cb152dcdc5a77afc113fda1645875e8e1d33ab3af33624e36e0a3f0867ea3.png" title=" Y Seleccionar la Regi&oacute;n (completed)" width="1920"/>
+                <img src="dad43d919f9a044e38b216f798d029b182a0d218c03f2804bfda01e368e7a4af.png" title=" Y hacer click en el bot&oacute;n Continue del Billing Details" width="1920"/>
+                <img src="dad43d919f9a044e38b216f798d029b182a0d218c03f2804bfda01e368e7a4af.png" title=" Hacer click en el bot&oacute;n continue del billing details" width="1920"/>
+                <img src="dad43d919f9a044e38b216f798d029b182a0d218c03f2804bfda01e368e7a4af.png" title=" Y hacer click en el bot&oacute;n Continue del Billing Details (completed)" width="1920"/>
+                <img src="4e93a8b8e6405a7536a9f608ef80eefadaa70dccc0999e2e127e8ab0def4b5e8.png" title=" Y Hacer click en el bot&oacute;n Continue del Delivery Method" width="1920"/>
+                <img src="7dfe87b88e2baffcea68c3d2cb378b1b8416799837d176f0c5d8e11e85b204a7.png" title=" Y Hacer click en el Checkbox de T&eacute;rminos y Condiciones" width="1920"/>
+                <img src="506efc994ee53530e8d716cea8bdfa39c4834514803983208049c44187bce4b6.png" title=" Y Hacer click en el bot&oacute;n Continue del Payment Method" width="1920"/>
+                <img src="d39426269c3ab205b127b1bfc0b1a81c46e3e9338f844e48609386978fa2f1f3.png" title=" Y Hacer click en el bot&oacute;n Confirm Order: <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.54</span>
+</div>
+</body>
+</html>
