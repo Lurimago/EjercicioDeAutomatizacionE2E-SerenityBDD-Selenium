@@ -1,0 +1,15 @@
+Challenge en el repositorio Github público: 
+https://github.com/Lurimago/EjercicioDeAutomatizacionE2E-SerenityBDD-Selenium.git
+
+Conclusiones:
+
+1.	Ejercicio de Automatización E2E
+
+	- Se abrió la página:	http://opencart.abstracta.us/
+	- Se Agregaron dos productos al carrito
+	- Se Visualiza el carrito
+	- Se Completó el “Checkout” como invitado: “Guest Checkout”
+	- Se Finalizó la compra con la confirmación: “Your order has been placed!”
+
+
+
