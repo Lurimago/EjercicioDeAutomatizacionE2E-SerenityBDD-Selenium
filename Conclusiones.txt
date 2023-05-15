@@ -11,5 +11,17 @@ Conclusiones:
 	- Se Completó el “Checkout” como invitado: “Guest Checkout”
 	- Se Finalizó la compra con la confirmación: “Your order has been placed!”
 
+2. Con Serenity BDD y su enfoque basado en comportamiento para el desarrollo de
+    pruebas automatizadas hacen que las pruebas se centren en el comportamiento
+    esperado de la página y todo el flujo desde la perspectiva del usuario guest en este caso.
+
+3. Serenity BDD se integra con Selenium y permiten interactuar con los elementos de la interfaz
+    de la web y simular las acciones del usuario guest, como hacer clic en los botones, ingresar
+    datos en los formularios y navegar por las páginas de la tienda.
+4.  Serenity BDD proporciona una estructura organizada para las pruebas, lo que facilita la localización y
+    modificación de los tests.
+
+5. Hay compatibilidad con varios navegadores web. Esto asegura la compatibilidad y funcionalidad de la tienda en diferentes navegadores,
+    lo que es crucial en el desarrollo web.
 
 
